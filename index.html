@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -14,11 +15,22 @@
     <input id="bill-amt"   type="text">
     <label for="cash-given">Cash Given :</label>
     <input id="cash-given" type="text">
-    <button>Check</button>
+    <button id="btn">Check</button>
+    <p id="errMsg"></p>
     <table class="cash-table">
         <caption>Change Returned</caption>
         <tr>
             <th>No. of notes</th>
+            <th class="noOfNotes"></th>
+            <th class="noOfNotes"></th>
+            <th class="noOfNotes"></th>
+            <th class="noOfNotes"></th>
+            <th class="noOfNotes"></th>
+            <th class="noOfNotes"></th>
+            <th class="noOfNotes"></th>
+        </tr>
+        <tr>
+            <th>Note</th>
             <td>1</td>
             <td>20</td>
             <td>50</td>
@@ -26,10 +38,8 @@
             <td>500</td>
             <td>2000</td>
         </tr>
-        <tr>
-            <th>Note</th>
-        </tr>
     </table>
 </div>
 </body>
+<script src="app.js"></script>
 </html>
