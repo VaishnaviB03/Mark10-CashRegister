@@ -1,19 +1,58 @@
+:root{
+    --primary-color : #800000;
+}
+
+
 body{
+    /* background-image: url("/image/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+    padding: 5rem;
+    background-color:#FCFAFA ;
+}
+
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem;
-    background-color: ;
+    background-color:#F7F2F2;
+    padding: 2rem;
+    box-shadow: 2px 2px #800000;
+}
+
+h1{
+    color:var(--primary-color);
 }
 
 label{
+    color: var(--primary-color);
     display: flex;
-    align-items: center;
+    text-align: center;
+    /* align-items: center; */
     padding: 1rem;
 }
 
+#btn{
+    margin-top:20px;
+    background-color: #E8D9D9;
+    border:1px solid #800000 ;
+    box-shadow: 2px solid #800000;
+}
+
+
 table{
+    font-size: 1.2rem;
+    text-align: center;
     align-items: center;
     padding: 1rem;
     border: 1px solid black;
 }
+
+.noOfNotes{
+    padding: 1rem
+}
+
